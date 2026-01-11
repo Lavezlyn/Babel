@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-paper-orange.svg)](https://github/Lavezlyn/Babel/tree/main/paper.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-paper-orange.svg)](https://github.com/Lavezlyn/Babel/blob/main/paper.pdf)
 
 > **How does a single linguistic communication system spontaneously give rise to multiple languages under natural conditions?**
 

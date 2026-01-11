@@ -277,6 +277,18 @@ Babel/
 │   ├── llm.py                     # LLM backend interface
 │   ├── llm_backends.py            # LLM implementations (OpenAI, vLLM, etc.)
 │   └── api.py                     # API utilities for LLM backends
+├── analysis_scripts/              # Analysis and visualization scripts
+│   ├── README.md                  # Analysis scripts documentation
+│   ├── analyze_emergent_language.py      # Main language emergence analysis
+│   ├── analyze_language_evolution.py     # Language evolution metrics
+│   ├── analyze_code_word_significance.py # Code word significance analysis
+│   ├── visualize_emergent_language.py    # Language emergence visualizations
+│   ├── visualize_language_evolution.py   # Language evolution visualizations
+│   ├── generate_main_table.py            # Main results table generator
+│   ├── generate_evolution_table.py       # Evolution table generator
+│   ├── generate_table_only.py            # Table-only generator
+│   ├── show_code_words_details.py        # Code word details viewer
+│   └── resource_exchange_to_text.py      # JSON log to text converter
 ├── config.py                      # Game configuration
 ├── agent.py                       # ResourceExchangeAgent implementation
 ├── game.py                        # ResourceExchangeGame orchestrator
@@ -322,7 +334,7 @@ This work builds on several research threads:
 - **LLM-Based Agent Societies**: Frameworks for studying social behavior, cooperation, and competition in populations of language agents
 - **Cultural Evolution**: Transmission-chain experiments showing that LLM outputs can exhibit human-like content biases
 
-For detailed related work, see the [paper](paper.tex).
+For detailed related work, see the [paper](paper.pdf).
 
 ## 📊 Results
 
@@ -337,12 +349,10 @@ Our experiments demonstrate that:
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{babel2025,
-  title={Babel: Emergent Linguistic Divergence in Multi-Agent Resource Exchange},
-  author={Your Name and Collaborators},
-  journal={Conference/Journal Name},
-  year={2025},
-  note={arXiv preprint}
+@article{digital2026,
+  title={Digital Babel: Spontaneous Language Speciation under Selective Cooperation in LLMs Society},
+  author={Sitong Fang, Kaile Wang, Weiye Shi, Yiyang Song, Xiaowei Zhang},
+  year={2026}
 }
 ```
 
